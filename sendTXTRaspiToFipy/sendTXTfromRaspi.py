@@ -1,5 +1,5 @@
 #Program to send a txt file to Fipy and save it
-#Code to use in Fipy: recibirTXTdeRaspi
+#Code to use in Fipy: receiveTXTonFipy.py
 
 import serial
 import time
