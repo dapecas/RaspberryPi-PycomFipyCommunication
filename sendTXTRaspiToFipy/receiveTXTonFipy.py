@@ -1,4 +1,4 @@
-#Code to use in Raspi: enviarFicheroTXT.py
+#Code to use in Raspi: sendTXTfromRaspi.py
 #Programa que recoge el contenido de un TXT y lo guarda en un TXT.
 
 import time
