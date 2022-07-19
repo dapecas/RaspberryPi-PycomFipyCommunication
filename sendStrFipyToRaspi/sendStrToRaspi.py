@@ -1,3 +1,6 @@
+#Program to open port and send a str to the Raspi
+#Code to use in Fipy:receiveStrFromFipy.py
+
 import time
 import pycom
 from machine import UART
