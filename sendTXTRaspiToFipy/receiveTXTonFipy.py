@@ -1,5 +1,5 @@
 #Code to use in Raspi: sendTXTfromRaspi.py
-#Programa que recoge el contenido de un TXT y lo guarda en un TXT.
+#Program that collects the content of a TXT and saves it in a TXT.
 
 import time
 import pycom as py
