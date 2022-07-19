@@ -13,4 +13,8 @@ The pinout of Pycom Fipy is this:
 
 As you can see, the Fipy UART connection is located on the pins P3 and P4. For Raspberry Pi, this connection is located on the pins 8 and 10. Therefore, to perform serial communications, both devices need to be connected through these pins, crossing TX-RX.
 
-Right now, there are 4 folders that contain the necessary files to make a correct serial communication between the devices.
+The second thing to know is that each device uses a similar but different programming language. For Raspberry Pi, I have used scripts programmed in python with the help of Python3. However, for Fipy, you have to use MicroPython language.
+
+The products of Pycom, like Fipy, are programmable in MicroPython, an implementation of the Python3 language optimized for microcontrollers. On the official Pycom page, you can find some examples of Mcropython for their products. Here is the URL of the examples: https://development.pycom.io/docnotes/
+
+Right now, there are 4 folders that contain the necessary files to make a correct serial communication between the devices. Two of them contain the necessary scripts to send a string by serial port and the other two contain scripts to communicate with each other and send a text file.
