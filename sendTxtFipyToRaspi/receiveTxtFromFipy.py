@@ -12,13 +12,13 @@ puerto=serial.Serial('/dev/ttyS0', baudrate=115200,
 while info==None:
         time.sleep(3)
         if(puerto.inWaiting()):
-                print('He escuchado algo')
+                print('I heard something')
                 info=puerto.read(puerto.inWaiting()).decode('utf-8')
                 time.sleep(5)
                 data_left=puerto.inWaiting()
                 info = info + puerto.read(data_left).decode('utf-8')
         else:
-                print('No ha recogido nada')
+                print('Has not collected anything')
                 time.sleep(1)
 
 time.sleep(3)
