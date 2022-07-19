@@ -1,5 +1,5 @@
 #Program to open port and obtain the content of a txt located in the Fipy
-#Code to use in Fipy:AbrirPuertoYMandarTXT
+#Code to use in Fipy:sendStrToRaspi.py
 
 import serial
 import time
