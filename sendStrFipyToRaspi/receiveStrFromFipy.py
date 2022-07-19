@@ -1,4 +1,4 @@
-#Program to open port and obtain the content of a txt located in the Fipy
+#Program to open port and obtain the content of a string sent from the Fipy
 #Code to use in Fipy:sendStrToRaspi.py
 
 import serial
